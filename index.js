@@ -24,7 +24,7 @@ app.use(
 app.use("/auth", authRoute);
 
 app.get("/", (req, res) => {
-  res.send("HHHHIIIIIIII")
+  res.send("HI HASEODE!!!!")
 });
 
 app.listen(process.env.PORT || "4040", () => {
