@@ -23,7 +23,7 @@ app.use(
 
 app.use("/auth", authRoute);
 
-router.get("/login/success", (req, res) => {
+app.get("/login/success", (req, res) => {
   res.send("HHHHIIIIIIII")
 });
 
