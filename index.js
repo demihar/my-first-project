@@ -23,6 +23,6 @@ app.use(
 
 app.use("/auth", authRoute);
 
-app.listen("4040", () => {
+app.listen(process.env.PORT || "4040", () => {
   console.log("Server is running on port 4040!");
 });
