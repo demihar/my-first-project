@@ -23,6 +23,10 @@ app.use(
 
 app.use("/auth", authRoute);
 
+router.get("/login/success", (req, res) => {
+  res.send("HHHHIIIIIIII")
+});
+
 app.listen(process.env.PORT || "4040", () => {
   console.log("Server is running on port 4040!");
 });
