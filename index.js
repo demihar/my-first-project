@@ -23,7 +23,7 @@ app.use(
 
 app.use("/auth", authRoute);
 
-app.get("/login/success", (req, res) => {
+app.get("/", (req, res) => {
   res.send("HHHHIIIIIIII")
 });
 
